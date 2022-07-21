@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  background-color: #064d60;
+  padding: 30px 0;
+  height: 100vh;
+}
+
+h2{
+  color: #fff;
+}
+
+
+label{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+label .inputContainer input,
+label .inputContainer select,
+label .inputContainer textarea{
+  width: 300px;
+  
+  outline: none;
+  border: none;
+  background-color: #9a9a9a80 !important;
+  border-bottom: 1px solid #fff;
+}
+
+label .inputContainer input,
+label .inputContainer select{
+  height: 40px;
+}
+label .inputContainer textarea{
+  height: 80px;
+}
+
+label .lableContainer{
+  width: 10%;
+  color: #fff;
+}
+
+button{
+  width: 200px;
+  height: 35px;
+margin-left: 50px;
+}
+
+
+
+
